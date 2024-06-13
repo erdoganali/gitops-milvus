@@ -1,0 +1,8 @@
+milvus:
+  enabled: true
+  image:
+    repository: milvusdb/milvus
+    tag: latest
+  service:
+    type: ClusterIP
+    port: 19530
